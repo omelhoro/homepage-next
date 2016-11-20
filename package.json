@@ -1,0 +1,19 @@
+{
+  "name": "homepage-next",
+  "version": "1.0.0",
+  "description": "My homepage with the next.js framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "transpile-md": "marked static/home.md -o static/home.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "next": "^1.1.1"
+  }
+}
