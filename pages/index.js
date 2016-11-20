@@ -7,10 +7,10 @@ export default class extends React.Component {
     try {
       let data = '';
       if (res) {
-        console.log('server');
+        // executed on server
         data = await fetch('http://localhost:3000/static/home.html');
       } else {
-        console.log('client');
+        // executed on client
         data = await fetch('/static/home.html');
       }
       const html = await data.text();
