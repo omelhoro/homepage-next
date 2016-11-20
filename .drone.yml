@@ -12,9 +12,10 @@ deploy:
     delete: false
     commands:
       - docker-compose -f /tmp/$$COMMIT/docker-compose.yml pull
-      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml -p homepage up -d
+      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml -p homepage-next up -d
     when:
       branch: master
+
 
 publish:
   docker:
@@ -22,6 +23,6 @@ publish:
     password: $$DOCKER_PASSWORD
     email: $$DOCKER_EMAIL
     storage_driver: vfs
-    repo: omelhoro1/homepage
+    repo: omelhoro1/homepage-next
     when:
       branch: master
