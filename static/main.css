@@ -89,3 +89,12 @@ img { width: 400px; }
   float: right;
   border: 1px solid black;
 }
+
+h1 {
+  text-align: center;
+}
+
+#mainlogo > img {
+  display: block;
+  margin: 0 auto;
+}
