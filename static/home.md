@@ -1,23 +1,26 @@
-## Coder, Linguist, Functional Programmer
+<div id="mainlogo">
+  <img src="/static/logo/2.jpg" alt="Igor Fischer Software Development" />
+</div>
+
+# Coder, Linguist, Functional Programmer
 
 I'm a former BA-student of Russian Linguistics and History at the University of Hamburg. I enjoy combining humanities with digital technologies - Digital Humanities.
+
+## Coding
 
 <div id='me'>
   <img src="/static/fischer.jpg" alt="Igor Fischer" />
 </div>
 
-### Coding
-
 Personal:
 
-My private projects are mostly in ClojureScript (Reagent & Express). This site is made so :)That's the custom template.
 Here is a list of some personal projects:
 * **phonological**, like [syllable dividing](https://russyll.fischerops.com/) and [automatic stress setting](https://russtress.fischerops.com/)
-* **phonetic** [rhythm and intonation](https://home-cdn.fischerops.com/#workviz)
+* **phonetic** [rhythm and intonation](#workviz)
 * **morphological**, tagging and lemmatizing
 * **pedagogical** enhancement of a [language course with games](https://langapps.fischerops.com/)
-* **visualization** of [linguistic data](https://data.fischerops.com/)
-* **semantic**: [tagging/clustering of emotions of Russian politicians](https://data.fischerops.com/#/kosovotopic)
+* **visualization** of [linguistic data](https://data-viz.igor-fischer.rocks/)
+* **semantic**: [tagging/clustering of emotions of Russian politicians](https://data-viz.igor-fischer.rocks/#/kosovotopic)
 
 Professionaly:
 
@@ -31,11 +34,13 @@ Some of the customers include:
 * [FVH-Ecophoenixx](http://www.ecophoenixx.de/)
 * [MMKH](http://mmkh.de)
 
-### University
+## University
 
 [Vergleich der Silbenmodelle des Russischen mit Hilfe eines Natural Language Processing-Ansatzes](https://home-cdn.fischerops.com/static/tex-mydocs/ba-thesis/ba-thesis.pdf)
 
 _Although the description and the results are valid, the technical side is not. Recently I rewrote this app in Clojure with cljx-sources to work in web and desktop, also disabled Sampa-Notation which leads to a different output. Results and the app are in projects-section._
+
+Here is the link: [https://russyll.fischerops.com/](https://russyll.fischerops.com/)
 
 #### My seminar papers
 
@@ -62,13 +67,15 @@ _Although the description and the results are valid, the technical side is not. 
 * [Praktikum in der Deutschen Botschaft in Moldawien](https://home-cdn.fischerops.com/static/tex-mydocs/other_papers/intern_foreign/intern_foreign.pdf)
 
 
-#### Media
+## Media
 
 Here are some samples of my non-programming work
 
 * Infographic about [Kleinstprojekte in Moldova](https://home-cdn.fischerops.com/static/media/pics/mold_map_ex.png):
 
   ![alt="Kleinstprojekte in Moldova"](https://home-cdn.fischerops.com/static/media/pics/mold_map_ex.png)
+
+<a name="workviz"></a>
 
 * Conference presentations at [MIMS II](http://www.lima.uni-hamburg.de/index.php/de/veranstaltungen/lima-abschlusskonferenz)
     * Poster for [**Voice Onset Time (VOT)**](https://home-cdn.fischerops.com/static/media/pics/poster_vot.pdf)
