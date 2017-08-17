@@ -1,28 +1,30 @@
-build:
-  image: node
-  commands:
-    - echo 1
-deploy:
-  rsync:
-    user: $$PROD_USER
-    host: $$PROD_HOST
-    port: 22
-    source: ./docker-compose.yml
-    target: /tmp/$$COMMIT/
-    delete: false
+pipeline:
+
+  build:
+    image: node
     commands:
-      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml pull
-      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml -p homepage-next up -d
+      - echo "No tests yet"
+
+  docker:
+    image: plugins/docker
+    storage_driver: vfs
+    repo: omelhoro1/homepage-next
+    secrets: [ docker_username, docker_password ]
     when:
       branch: master
 
-
-publish:
-  docker:
-    username: $$DOCKER_USERNAME
-    password: $$DOCKER_PASSWORD
-    email: $$DOCKER_EMAIL
-    storage_driver: vfs
-    repo: omelhoro1/homepage-next
+  deploy:
+    image: drillster/drone-rsync
+    user: captain
+    hosts: [ "igor-fischer.rocks" ]
+    port: 22
+    target: /tmp/${DRONE_OMMIT}/
+    include:
+      - "docker-compose.yml"
+    delete: false
+    secrets: [ rsync_key ]
+    commands:
+      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml pull
+      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml -p homepage-next up -d
     when:
       branch: master
