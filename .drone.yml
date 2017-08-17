@@ -18,7 +18,7 @@ pipeline:
     user: captain
     hosts: [ "igor-fischer.rocks" ]
     port: 22
-    target: /tmp/${DRONE_OMMIT}/
+    target: /tmp/${DRONE_COMMIT}/
     include:
       - "docker-compose.yml"
     delete: false
