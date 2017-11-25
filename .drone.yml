@@ -18,13 +18,15 @@ pipeline:
     user: captain
     hosts: [ "igor-fischer.rocks" ]
     port: 22
-    target: /tmp/${DRONE_COMMIT}/
+    target: /tmp/homepage-${DRONE_COMMIT}/
     include:
       - "docker-compose.yml"
+    exclude:
+      - "**.*"
     delete: false
     secrets: [ rsync_key ]
     script:
-      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml pull
-      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml -p homepage-next up -d
+      - docker-compose -f /tmp/homepage-${DRONE_COMMIT}/docker-compose.yml pull
+      - docker-compose -f /tmp/homepage-${DRONE_COMMIT}/docker-compose.yml -p homepage-next up -d
     when:
       branch: master
