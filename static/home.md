@@ -35,6 +35,8 @@ Some of the customers include:
 * [MMKH](http://mmkh.de)
 * [Bright Skies](http://bskies.io)
 
+
+
 ## University
 
 [Vergleich der Silbenmodelle des Russischen mit Hilfe eines Natural Language Processing-Ansatzes](https://home-cdn.fischerops.com/static/tex-mydocs/ba-thesis/ba-thesis.pdf)
