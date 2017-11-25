@@ -12,8 +12,6 @@ pipeline:
     secrets: [ docker_username, docker_password ]
     when:
       branch: master
-
-
   deploy:
     image: drillster/drone-rsync
     user: captain
