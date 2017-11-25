@@ -33,6 +33,7 @@ Some of the customers include:
 * [Sales-Verlag](http://sales-verlag.de/)
 * [FVH-Ecophoenixx](http://www.ecophoenixx.de/)
 * [MMKH](http://mmkh.de)
+* [Bright Skies](http://bskies.io)
 
 ## University
 
