@@ -13,6 +13,7 @@ pipeline:
     when:
       branch: master
 
+
   deploy:
     image: drillster/drone-rsync
     user: captain
@@ -24,7 +25,7 @@ pipeline:
     delete: false
     secrets: [ rsync_key ]
     commands:
-      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml pull
-      - docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml -p homepage-next up -d
+      - -c docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml pull
+      - -c docker-compose -f /tmp/${DRONE_COMMIT}/docker-compose.yml -p homepage-next up -d
     when:
       branch: master
