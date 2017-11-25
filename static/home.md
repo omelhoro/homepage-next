@@ -24,8 +24,6 @@ Here is a list of some personal projects:
 
 Professionaly:
 
-
-
 In my job I'm using JavaScript everywhere: MEAN, ReactJS. Everything packed in nice Docker-Containers 😄
 
 Some of the customers include:
