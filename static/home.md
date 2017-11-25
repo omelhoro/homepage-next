@@ -22,8 +22,6 @@ Here is a list of some personal projects:
 * **visualizations** of [linguistic data](https://data-viz.igor-fischer.rocks/)
 * **semantic**: [tagging/clustering of emotions of Russian politicians](https://data-viz.igor-fischer.rocks/#/kosovotopic)
 
-
-
 Professionaly:
 
 In my job I'm using JavaScript everywhere: MEAN, ReactJS. Everything packed in nice Docker-Containers 😄
