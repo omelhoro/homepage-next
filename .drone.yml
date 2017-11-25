@@ -13,6 +13,7 @@ pipeline:
     when:
       branch: master
 
+
   deploy:
     image: drillster/drone-rsync
     user: captain
