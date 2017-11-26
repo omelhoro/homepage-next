@@ -1,10 +1,5 @@
 pipeline:
 
-  build:
-    image: node
-    commands:
-      - echo "No tests yet"
-
   docker:
     image: plugins/docker
     storage_driver: vfs
@@ -13,11 +8,10 @@ pipeline:
     when:
       branch: master
 
-
   deploy:
     image: drillster/drone-rsync
     user: captain
-    hosts: [ "igor-fischer.rocks" ]
+    hosts: [ "software-unchained.com" ]
     port: 22
     target: /tmp/homepage-${DRONE_COMMIT}/
     include:

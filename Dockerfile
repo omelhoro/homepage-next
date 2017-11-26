@@ -1,11 +1,9 @@
-FROM node
-
-RUN mkdir /app
-ENV NODE_ENV production
+FROM mhart/alpine-node:latest
 WORKDIR /app
 
+ENV NODE_ENV production
 COPY ./package.json /app
-RUN npm install --loglevel silent
+RUN npm install
 
 COPY ./ /app
 RUN npm run transpile-md
