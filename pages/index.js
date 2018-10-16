@@ -1,6 +1,7 @@
-import React from 'react';
-import 'isomorphic-fetch'
-import Head from 'next/head';
+import React from "react";
+import "isomorphic-fetch";
+import Head from "next/head";
+import homeHtml from "../static/home.html";
 
 const trackingCode = `
 var _paq = _paq || [];
@@ -16,34 +17,25 @@ _paq.push(['enableLinkTracking']);
 })();
 `;
 
-export default class extends React.Component {
-  static async getInitialProps ({res}) {
-    try {
-      let data = '';
-      if (res) {
-        // executed on server
-        data = await fetch('http://localhost:3000/static/home.html');
-      } else {
-        // executed on client
-        data = await fetch('/static/home.html');
-      }
-      const html = await data.text();
-      return {html};
-    } catch(e) {
-      console.log(e);
-    }
-  }
-
-  render() {
-    return (
-      <div>
-        <Head>
-          <link rel="stylesheet" type="text/css" href="/static/main.css" />
-          <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" />
-          <script type="text/javascript" dangerouslySetInnerHTML={{__html: trackingCode}} />
-        </Head>
-        <div dangerouslySetInnerHTML={{__html: this.props.html}} />
-      </div>
-    )
-  }
-}
+export default () => (
+  <div>
+    <Head>
+      <link rel="stylesheet" type="text/css" href="/static/main.css" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed"
+        rel="stylesheet"
+      />
+      <script
+        type="text/javascript"
+        dangerouslySetInnerHTML={{ __html: trackingCode }}
+      />
+      <link
+        rel="shortcut icon"
+        type="image/x-icon"
+        href="/static/favicon.png"
+      />
+      <link rel="manifest" href="/static/manifest.json" />
+    </Head>
+    <div dangerouslySetInnerHTML={{ __html: homeHtml }} />
+  </div>
+);
