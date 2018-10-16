@@ -1,0 +1,15 @@
+{
+  "short_name": "Igor Fischer Home",
+  "name": "Homepage of Igor Fischer, a Freelancer in JS",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#1E4A8D"
+}
