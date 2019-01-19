@@ -2,7 +2,7 @@
   <img src="/static/logo/2.jpg" alt="Igor Fischer Software Development" />
 </div>
 
-# Coder, Linguist, Functional Programmer, Freelancer
+# Linguist - Functional Programmer - Freelancer
 
 I'm a former BA-student of Russian Linguistics and History at the University of Hamburg. I enjoy combining humanities with digital technologies - Digital Humanities.
 
@@ -25,24 +25,26 @@ Here is a list of some personal projects:
 
 Professionaly:
 
-In my job I'm using JavaScript everywhere: MEAN, ReactJS. Everything packed in nice Docker-Containers 😄
+In my jobs I'm using JavaScript everywhere: MEAN, ReactJS and a bit of Clojure. Everything packed in nice Docker-Containers 😄
 
 Some of the customers include:
 
-- [Espit & APLL](https://www.apllogistics.com/)
-- [Green Technology Solutions](http://www.gts-web.de/)
+- [Stampwallet](https://stampwallet.com/)
+- [Espit & APLL](https://apllogistics.com/)
+- [Green Technology Solutions](http://gts-web.de/)
 - [Sales-Verlag](http://sales-verlag.de/)
-- [FVH-Ecophoenixx](http://www.ecophoenixx.de/)
+- [FVH-Ecophoenixx](http://ecophoenixx.de/)
 - [MMKH](http://mmkh.de)
 - [Bright Skies](http://bskies.io)
+- [XING](http://xing.de)
 
 ## University
 
-[Vergleich der Silbenmodelle des Russischen mit Hilfe eines Natural Language Processing-Ansatzes](https://home-cdn.fischerops.com/static/tex-mydocs/ba-thesis/ba-thesis.pdf)
+#### BA thesis
 
-_Although the description and the results are valid, the technical side is not. Recently I rewrote this app in Clojure with cljx-sources to work in web and desktop, also disabled Sampa-Notation which leads to a different output. Results and the app are in projects-section._
+[Vergleich der Silbenmodelle des Russischen mit Hilfe eines Natural Language Processing-Ansatzes](https://home-cdn.fischerops.com/static/tex-mydocs/ba-thesis/ba-thesis.pdf) - (Comparison of syllable models in Russian within a Natural Language Processing framework)
 
-Here is the link: [https://russyll.fischerops.com/](https://russyll.fischerops.com/)
+Here is the link to the interactive demo: [https://russyll.fischerops.com/](https://russyll.fischerops.com/)
 
 #### My seminar papers
 

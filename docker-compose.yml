@@ -7,7 +7,7 @@ services:
     # ports:
     #   - "3000:3000"
     labels:
-      - traefik.frontend.rule=Host:home.igor-fischer.rocks,home.fischerops.com,software-unchained.com,home.software-unchained.com
+      - traefik.frontend.rule=Host:home.fischerops.com,software-unchained.com,home.software-unchained.com
     networks:
       - proxy-tier
 networks:
