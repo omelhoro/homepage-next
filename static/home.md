@@ -20,8 +20,8 @@ Here is a list of some personal projects:
 - **phonetic** [rhythm and intonation](#workviz)
 - **morphological**, tagging and lemmatizing
 - **pedagogical** enhancement of a [language course with games](https://langapps.fischerops.com/)
-- **visualizations** of [linguistic data](https://data-viz.fischerops.com/)
-- **semantic**: [tagging/clustering of emotions of Russian politicians](https://data-viz.fischerops.com/#/kosovotopic)
+- **visualizations** of [linguistic data]
+- **semantic**: [tagging/clustering of emotions of Russian politicians]
 
 Professionaly:
 
@@ -37,6 +37,7 @@ Some of the customers include:
 - [MMKH](http://mmkh.de)
 - [Bright Skies](http://bskies.io)
 - [XING](http://xing.de)
+- [Witt-Group](http://witt-gruppe.eu)
 
 ## University
 
