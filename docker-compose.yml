@@ -1,15 +1,15 @@
-version: '2'
+version: "2"
 services:
   home:
     image: omelhoro1/homepage-next
     container_name: home-next
     restart: unless-stopped
-    # ports:
-    #   - "3000:3000"
     labels:
       - traefik.frontend.rule=Host:home.fischerops.com,software-unchained.com,home.software-unchained.com
+      - traefik.enable=true
     networks:
       - proxy-tier
+
 networks:
   proxy-tier:
     external: true
