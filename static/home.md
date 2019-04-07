@@ -20,8 +20,8 @@ Here is a list of some personal projects:
 - **phonetic** [rhythm and intonation](#workviz)
 - **morphological**, tagging and lemmatizing
 - **pedagogical** enhancement of a [language course with games](https://langapps.fischerops.com/)
-- **visualizations** of [linguistic data]
-- **semantic**: [tagging/clustering of emotions of Russian politicians]
+- **visualizations** of linguistic data
+- **semantics**: tagging/clustering of emotions of Russian politicians
 
 Professionaly:
 
