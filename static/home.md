@@ -19,7 +19,7 @@ Here is a list of some personal projects:
 - **phonological**, like [syllable dividing](https://russyll.fischerops.com/) and [automatic stress setting](https://russtress.fischerops.com/)
 - **phonetic** [rhythm and intonation](#workviz)
 - **morphological**, tagging and lemmatizing
-- **pedagogical** enhancement of a [language course with games](https://langapps.fischerops.com/)
+- **pedagogical** enhancement of a language course with games
 - **visualizations** of linguistic data
 - **semantics**: tagging/clustering of emotions of Russian politicians
 
